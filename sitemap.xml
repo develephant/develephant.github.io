@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://develephant.github.io/</loc>
-         <lastmod>2022-09-13</lastmod>
+         <loc>https://develephant.com/</loc>
+         <lastmod>2022-09-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://develephant.github.io/chatterbox/</loc>
-         <lastmod>2022-09-13</lastmod>
+         <loc>https://develephant.com/chatterbox/</loc>
+         <lastmod>2022-09-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://develephant.github.io/classyoop/</loc>
-         <lastmod>2022-09-13</lastmod>
+         <loc>https://develephant.com/classyoop/</loc>
+         <lastmod>2022-09-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://develephant.github.io/coronium/</loc>
-         <lastmod>2022-09-13</lastmod>
+         <loc>https://develephant.com/coronium/</loc>
+         <lastmod>2022-09-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://develephant.github.io/mailgun/</loc>
-         <lastmod>2022-09-13</lastmod>
+         <loc>https://develephant.com/mailgun/</loc>
+         <lastmod>2022-09-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://develephant.github.io/s3lite/</loc>
-         <lastmod>2022-09-13</lastmod>
+         <loc>https://develephant.com/s3lite/</loc>
+         <lastmod>2022-09-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://develephant.github.io/scorekeeper/</loc>
-         <lastmod>2022-09-13</lastmod>
+         <loc>https://develephant.com/scorekeeper/</loc>
+         <lastmod>2022-09-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://develephant.github.io/skytable/</loc>
-         <lastmod>2022-09-13</lastmod>
+         <loc>https://develephant.com/skytable/</loc>
+         <lastmod>2022-09-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://develephant.github.io/uuid/</loc>
-         <lastmod>2022-09-13</lastmod>
+         <loc>https://develephant.com/uuid/</loc>
+         <lastmod>2022-09-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://develephant.github.io/websockets/</loc>
-         <lastmod>2022-09-13</lastmod>
+         <loc>https://develephant.com/websockets/</loc>
+         <lastmod>2022-09-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

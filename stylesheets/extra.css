@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Oswaldt";
+    src: url("../fonts/Oswald-VariableFont_wght.ttf");
+    font-weight: 300, 400, 400i, 700
+  }
+
+:root {
+    --md-text-font: "Oswaldt";
+    font-size: 1.6em;
+}
