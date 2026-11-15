@@ -1,0 +1,8 @@
+version: 1
+auth:
+  huggingface:
+    token_env: HF_TOKEN
+downloads:
+  - url: https://huggingface.co/develephant/Comfy/resolve/main/upscale_models/RealESRGAN_x2plus.pth
+    dest: ${WORKSPACE:-/workspace}/ComfyUI/models/upscale_models/RealESRGAN_x2plus.pth
+
