@@ -1,0 +1,9 @@
+version: 1
+auth:
+  huggingface:
+    token_env: HF_TOKEN
+pip_packages:
+  - open-terminal
+downloads:
+  - url: https://huggingface.co/google/gemma-4-E4B-it/resolve/main/model.safetensors
+    dest: ${WORKSPACE:-/workspace}/google/gemma-4-E4B-it/resolve/main/model.safetensors
