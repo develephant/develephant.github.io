@@ -5,9 +5,9 @@ auth:
   civitai:
     token_env: CIVITAI_TOKEN
 downloads:
-  # - url: https://huggingface.co/Lightricks/LTX-2.3-fp8/resolve/main/ltx-2.3-22b-dev-fp8.safetensors
-  #   dest: ${WORKSPACE:-/workspace}/ComfyUI/models/checkpoints/ltx-2.3-22b-dev-fp8.safetensors
   - url: https://civitai.red/api/download/models/3460707+3362755
+    dest: ${WORKSPACE:-/workspace}/ComfyUI/models/checkpoints/PinkCherry_FineTune_fp8scaled_v1_8_LTX23.safetensors
+  - url: https://civitai.red/api/download/models/3460707?fileId=3362755
     dest: ${WORKSPACE:-/workspace}/ComfyUI/models/checkpoints/PinkCherry_FineTune_fp8scaled_v1_8_LTX23.safetensors
   - url: https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/loras/gemma-3-12b-it-abliterated_heretic_lora_rank64_bf16.safetensors
     dest: ${WORKSPACE:-/workspace}/ComfyUI/models/loras/gemma-3-12b-it-abliterated_heretic_lora_rank64_bf16.safetensors
@@ -15,5 +15,7 @@ downloads:
     dest: ${WORKSPACE:-/workspace}/ComfyUI/models/loras/ltx_2.3_22b_distilled_1.1_lora_dynamic_fro09_avg_rank_111_bf16.safetensors
   - url: https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fp4_mixed.safetensors
     dest: ${WORKSPACE:-/workspace}/ComfyUI/models/text_encoders/gemma_3_12B_it_fp4_mixed.safetensors
-  - url: https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x2-1.1.safetensors?download=true
+  - url: https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x2-1.1.safetensors
     dest: ${WORKSPACE:-/workspace}/ComfyUI/models/upscale_models/ltx-2.3-spatial-upscaler-x2-1.1.safetensors
+  # - url: https://huggingface.co/Lightricks/LTX-2.3-fp8/resolve/main/ltx-2.3-22b-dev-fp8.safetensors
+  #   dest: ${WORKSPACE:-/workspace}/ComfyUI/models/checkpoints/ltx-2.3-22b-dev-fp8.safetensors
