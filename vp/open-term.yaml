@@ -1,0 +1,6 @@
+version: 1
+auth:
+  huggingface:
+    token_env: HF_TOKEN
+pip_packages:
+  - open-terminal
