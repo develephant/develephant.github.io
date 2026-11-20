@@ -2,8 +2,11 @@ version: 1
 auth:
   huggingface:
     token_env: HF_TOKEN
-pip_packages:
-  - open-terminal
+git_repos:
+  - url: https://github.com/open-webui/open-terminal.git
+    dest: "${WORKSPACE}/open-terminal"
+    post_commands:
+      - "uv pip install --no-cache --python /venv/main/bin/python -r requirements.txt"    
 downloads:
-  - url: https://huggingface.co/google/gemma-4-E4B-it/resolve/main/model.safetensors
-    dest: ${WORKSPACE:-/workspace}/google/gemma-4-E4B-it/resolve/main/model.safetensors
+  - url: https://huggingface.co/buckets/develephant/comfy-runner
+    dest: ${WORKSPACE}/comfy-runner
