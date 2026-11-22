@@ -5,8 +5,8 @@ auth:
   github:
     token_env: GITHUB_TOKEN
 git_repos:
-  - url: https://github.com/develephant/eve-character-node.git
-    dest: "${WORKSPACE:-/workspace}/ComfyUI/custom_nodes/eve-character-node"
+  - url: https://github.com/develephant/ComfyUI-Eve-Nodes.git
+    dest: "${WORKSPACE:-/workspace}/ComfyUI/custom_nodes/ComfyUI-Eve-Nodes"
   - url: https://github.com/HellerCommaA/ComfyUI-ZImageLatent.git
     dest: "${WORKSPACE:-/workspace}/ComfyUI/custom_nodes/ComfyUI-ZImageLatent"
   - url: https://github.com/city96/ComfyUI-GGUF.git
