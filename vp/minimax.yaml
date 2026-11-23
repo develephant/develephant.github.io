@@ -2,11 +2,6 @@ version: 1
 auth:
   huggingface:
     token_env: HF_TOKEN
-  github:
-    token_env: GITHUB_TOKEN
-git_repos:
-  - url: https://github.com/develephant/ComfyUI-Eve-Nodes.git
-    dest: "${WORKSPACE:-/workspace}/ComfyUI/custom_nodes/ComfyUI-Eve-Nodes" 
 downloads:
   - url: https://huggingface.co/lightx2v/Minimax-h3-Turbo/resolve/main/minimax_h3_fl2v_turbo_4step_v1.3_768p_comfyui_bf16.safetensors
     dest: ${WORKSPACE:-/workspace}/ComfyUI/models/loras/minimax_h3_fl2v_turbo_4step_v1.3_768p_comfyui_bf16.safetensors
