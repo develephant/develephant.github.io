@@ -1,4 +1,9 @@
 version: 1
+auth:
+  huggingface:
+    token_env: HF_TOKEN
+  github:
+    token_env: GITHUB_TOKEN
 git_repos:
   - url: https://github.com/develephant/ComfyUI-Eve-Nodes.git
     dest: "${WORKSPACE:-/workspace}/ComfyUI/custom_nodes/ComfyUI-Eve-Nodes" 
