@@ -1,0 +1,27 @@
+version: 1
+git_repos:
+  - url: https://github.com/develephant/ComfyUI-Eve-Nodes.git
+    dest: "${WORKSPACE:-/workspace}/ComfyUI/custom_nodes/ComfyUI-Eve-Nodes" 
+downloads:
+  - url: https://huggingface.co/lightx2v/Minimax-h3-Turbo/resolve/main/minimax_h3_fl2v_turbo_4step_v1.3_768p_comfyui_bf16.safetensors
+    dest: ${WORKSPACE:-/workspace}/ComfyUI/models/loras/minimax_h3_fl2v_turbo_4step_v1.3_768p_comfyui_bf16.safetensors
+  - url: https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_audio_vae_fp32.safetensors
+    dest: ${WORKSPACE:-/workspace}/ComfyUI/models/vae/minimax_h3_audio_vae_fp32.safetensors
+  - url: https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_video_vae_int8_convrot.safetensors
+    dest: ${WORKSPACE:-/workspace}/ComfyUI/models/vae/minimax_h3_video_vae_int8_convrot.safetensors
+  - url: https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors
+    dest: ${WORKSPACE:-/workspace}/ComfyUI/models/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors
+  - url: https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors
+    dest: ${WORKSPACE:-/workspace}/ComfyUI/models/diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors
+  - url: https://huggingface.co/lightx2v/Minimax-h3-Turbo/resolve/main/minimax_h3_fl2v_turbo_4step_v1.3_768p_comfyui_bf16.safetensors
+    dest: ${WORKSPACE:-/workspace}/ComfyUI/models/loras/minimax_h3_fl2v_turbo_4step_v1.3_768p_comfyui_bf16.safetensors
+  - url: https://huggingface.co/lightx2v/Minimax-h3-Turbo/resolve/main/minimax_h3_fl2v_turbo_8step_v1.2_768p_comfyui_bf16.safetensors
+    dest: ${WORKSPACE:-/workspace}/ComfyUI/models/loras/minimax_h3_fl2v_turbo_8step_v1.2_768p_comfyui_bf16.safetensors
+  - url: https://huggingface.co/Comfy-Org/MiniMax-H3-Image/resolve/main/diffusion_models/minimax_h3_image_pruned_int8_convrot.safetensors
+    dest: ${WORKSPACE:-/workspace}/ComfyUI/models/diffusion_models/minimax_h3_image_pruned_int8_convrot.safetensors
+  - url: https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/text_encoders/qwen3vl_32b_minimax_h3_int8_convrot.safetensors
+    dest: ${WORKSPACE:-/workspace}/ComfyUI/models/text_encoders/qwen3vl_32b_minimax_h3_int8_convrot.safetensors
+  - url: https://huggingface.co/Comfy-Org/Qwen3.5/resolve/main/text_encoders/qwen3.5_9b_w4a8_gptq.safetensors
+    dest: ${WORKSPACE:-/workspace}/ComfyUI/models/text_encoders/qwen3.5_9b_w4a8_gptq.safetensors
+  - url: https://huggingface.co/Comfy-Org/MiniMax-H3-Image/resolve/main/vae/minimax_h3_image_vae_fp16.safetensors
+    dest: ${WORKSPACE:-/workspace}/ComfyUI/models/vae/minimax_h3_image_vae_fp16.safetensors
