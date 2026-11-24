@@ -5,10 +5,10 @@ auth:
 downloads:
   - url: https://huggingface.co/develephant/Moss/resolve/main/clip/qwen3.5_9b_int8_convrot.safetensors
     dest: ${WORKSPACE:-/workspace}/ComfyUI/models/clip/qwen3.5_9b_int8_convrot.safetensors
-  - url: https://huggingface.co/develephant/Moss/resolve/main/difussion_models/Moss_V15_Civ_fp8_scaled_C88.safetensors
-    dest: ${WORKSPACE:-/workspace}/ComfyUI/diffusion_models/Moss_V15_Civ_fp8_scaled_C88.safetensors
-  - url: https://huggingface.co/develephant/Moss/resolve/main/models/vae/flux2-vae.safetensors
-    dest: ${WORKSPACE:-/workspace}/ComfyUI/vae/flux2-vae.safetensors
+  - url: https://huggingface.co/develephant/Moss/resolve/main/diffusion_models/Moss_V15_Civ_fp8_scaled_C88.safetensors
+    dest: ${WORKSPACE:-/workspace}/ComfyUI/models/diffusion_models/Moss_V15_Civ_fp8_scaled_C88.safetensors
+  - url: https://huggingface.co/develephant/Moss/resolve/main/vae/flux2-vae.safetensors
+    dest: ${WORKSPACE:-/workspace}/ComfyUI/models/vae/flux2-vae.safetensors
   - url: https://huggingface.co/develephant/Comfy/resolve/main/upscale_models/RealESRGAN_x4plus_anime_6B.pth
     dest: ${WORKSPACE:-/workspace}/ComfyUI/models/upscale_models/RealESRGAN_x4plus_anime_6B.pth
   - url: https://huggingface.co/develephant/Comfy/resolve/main/upscale_models/RealESRGAN_x2plus.pth

@@ -1,11 +1,16 @@
 version: 1
+auth:
+  huggingface:
+    token_env: HF_TOKEN
+env: 
+  GITHUB_TOKEN: GITHUB_TOKEN
 git_repos:
   - url: https://github.com/develephant/ComfyUI-Eve-Nodes.git
     dest: "${WORKSPACE:-/workspace}/ComfyUI/custom_nodes/ComfyUI-Eve-Nodes"
   - url: https://github.com/city96/ComfyUI-GGUF.git
     dest: "${WORKSPACE:-/workspace}/ComfyUI/custom_nodes/ComfyUI-GGUF"
     post_commands:
-      - "uv pip install --no-cache --python /venv/main/bin/python -r requirements.txt"  
+      - "uv pip install --no-cache --python /venv/main/bin/python -r requirements.txt"   
 downloads:
   - url: https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors
     dest: ${WORKSPACE:-/workspace}/ComfyUI/models/vae/qwen_image_vae.safetensors
