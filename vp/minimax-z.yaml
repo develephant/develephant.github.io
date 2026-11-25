@@ -24,8 +24,8 @@ downloads:
     dest: ${WORKSPACE:-/workspace}/ComfyUI/models/loras/minimax_h3_fl2v_turbo_8step_v1.2_768p_comfyui_bf16.safetensors
   - url: https://huggingface.co/develephant/ZIT/resolve/main/models/diffusion_models/zImageTurboNSFW_90BF16FP8.safetensors
     dest: ${WORKSPACE:-/workspace}/ComfyUI/models/diffusion_models/zImageTurboNSFW_90BF16FP8.safetensors
-  - url: https://huggingface.co/develephant/Qwen/resolve/main/Qwen2.5-VL-7B-Instruct-abliterated.Q4_K_M.gguf
-    dest: ${WORKSPACE:-/workspace}/ComfyUI/models/text_encoders/Qwen2.5-VL-7B-Instruct-abliterated.Q4_K_M.gguf
+  - url: https://huggingface.co/develephant/ZIT/resolve/main/models/clip/Z-Image-AbliteratedV1.f16.gguf
+    dest: ${WORKSPACE:-/workspace}/ComfyUI/models/clip/Z-Image-AbliteratedV1.f16.gguf
   - url: https://huggingface.co/develephant/ZIT/resolve/main/models/vae/Z-Image_clear_vae.safetensors
     dest: ${WORKSPACE:-/workspace}/ComfyUI/models/vae/Z-Image_clear_vae.safetensors
   - url: https://huggingface.co/develephant/ZIT/resolve/main/models/upscale_models/RealESRGAN_x2plus.pth
