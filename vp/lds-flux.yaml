@@ -3,6 +3,8 @@ auth:
   huggingface:
     token_env: HF_TOKEN
 git_repos:
+  - url: https://github.com/lbouaraba/comfyui-krea2edit.git
+    dest: "${WORKSPACE:-/workspace}/ComfyUI/custom_nodes/comfyui-krea2edit"
   - url: https://github.com/city96/ComfyUI-GGUF.git
     dest: "${WORKSPACE:-/workspace}/ComfyUI/custom_nodes/ComfyUI-GGUF"
     post_commands:
@@ -16,3 +18,5 @@ downloads:
     dest: ${WORKSPACE:-/workspace}/ComfyUI/models/vae/flux2-vae.safetensors
   - url: https://huggingface.co/develephant/Flux2/resolve/main/text_encoders/qwen_3_8b_fp8mixed.safetensors
     dest: ${WORKSPACE:-/workspace}/ComfyUI/models/text_encoders/qwen_3_8b_fp8mixed.safetensors
+
+
